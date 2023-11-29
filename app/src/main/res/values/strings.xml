@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">在庫管理</string>
+    <string name="title_home">設定</string>
+    <string name="title_dashboard">入出庫登録</string>
+    <string name="title_notifications">一覧</string>
+    <string name="sale_sum">粗利:</string>
+    <string name="product_id">商品ID</string>
+    <string name="product_number">品番</string>
+    <string name="product_name">商品名</string>
+    <string name="stock_price">仕入価格</string>
+    <string name="sale_price">販売価格</string>
+    <string name="stock_low">最低在庫</string>
+    <string name="Back">Back</string>
+
+    <string name="product">商品</string>
+    <string-array name="product_process">
+        <item>商品登録</item>
+        <item>商品編集</item>
+        <item>商品削除</item>
+    </string-array>
+
+    <string name="supplier">取引先</string>
+    <string-array name="supplier_process">
+        <item>取引先登録</item>
+        <item>取引先編集</item>
+        <item>取引先削除</item>
+    </string-array>
+
+    <string name="supplier_Id">取引先ID</string>
+    <string name="supplier_name">取引先名</string>
+    <string name="phone_number">電話番号</string>
+    <string name="email">メール</string>
+
+
+
+    <string name="stock_in">入庫</string>
+    <string-array name="stock_in_process">
+        <item>入庫登録</item>
+        <item>入庫編集</item>
+        <item>入庫削除</item>
+    </string-array>
+
+    <string name="stock_out">出庫</string>
+    <string-array name="stock_out_process">
+        <item>出庫登録</item>
+        <item>出庫編集</item>
+        <item>出庫削除</item>
+    </string-array>
+
+    <string name="stock_date">日付</string>
+    <string name="stock_quantity">個数</string>
+
+    <string name="stock_search">検索</string>
+    <string-array name="stock_search_process">
+        <item>商品検索</item>
+        <item>取引検索</item>
+        <item>入出庫検索</item>
+    </string-array>
+
+    <string name="stock_list">一覧</string>
+    <string-array name="stock_list_process">
+        <item>在庫補充一覧</item>
+        <item>在庫一覧</item>
+        <item>売上一覧</item>
+    </string-array>
+
+    <string name="stock_in_out">入出庫</string>
+    <string name="stock_total_quantity">在庫数</string>
+    <string name="total_sale">売上額</string>
+
+    <string name="register">登録</string>
+    <string name="update">保存</string>
+    <string name="delete">削除</string>
+    <string name="select_all_product">全品</string>
+    <string name="select_all_supplier">全取引先</string>
+    <string name="select_all_stock_in">全入庫検索</string>
+    <string name="select_all_stock_out">全出庫検索</string>
+    <string name="search_stock_date">日付検索</string>
+    <string name="input_product">商品名入力</string>
+    <string name="input_supplier">取引先名入力</string>
+
+    <string name="string_format">%d/%02d/%02d</string>
+    
+    <string name="pieces">個</string>
+    <string name="yen">円</string>
+</resources>

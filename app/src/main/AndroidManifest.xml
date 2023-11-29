@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StockControl"
+        tools:targetApi="31"
+        tools:ignore="LockedOrientationActivity">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".ui.home.product.ProductRegister"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.home.product.ProductSearch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.home.product.ProductUpdate"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.home.product.ProductDelete"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.home.supplier.SupplierRegister"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.home.supplier.SupplierSearch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.home.supplier.SupplierUpdate"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.home.supplier.SupplierDelete"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock.StockRegister"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock.StockSearch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock.StockUpdate"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock.StockDelete"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock_status.ProductSearch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock_status.SupplierSearch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock_status.StockSearch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock_status.StockReplenishmentSearch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock_status.StockTotalSearch"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.stock_status.SaleTotalSearch"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
